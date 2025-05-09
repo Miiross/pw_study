@@ -18,10 +18,10 @@ public class Disponibilidade {
     @Column(name = "ID_DISPONIBILIDADE")
     private long id;
 
-    @Column(name = "TX_DIA_SEMANA")
+    @Column(name = "TX_DAS")
     private LocalDateTime dt_dias;
 
-    @Column(name = "DT_DAS")
+    @Column(name = "DT_ATE")
     private LocalDateTime dtAte;
 
     @Column(name = "TX_DIA_SEMANA")
